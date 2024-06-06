@@ -1,0 +1,10 @@
+[package]
+name = "flate-276"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+flate2 = "1.0.30"
+regex = "1.10.4"
+reqwest = { version =  "0.12.4", features = ["blocking"]}
